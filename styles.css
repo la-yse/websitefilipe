@@ -96,7 +96,8 @@ table {
 /* -------------------- Main Container -------------------- */
 
 .container {
-    width: 33.333%;
+    width: 500px;
+    min-width: 500px;
     margin: 0 auto;
 }
 
@@ -148,10 +149,11 @@ header {
 
 .hero-content {
     width: 60%;
+
 }
 
 .hero-image {
-    width: 35%;
+    width: 30%;
     display: flex;
     justify-content: flex-end;
 }
@@ -196,27 +198,26 @@ header {
     display: flex;
     align-items: flex-start;
     gap: 12px;
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
 .interests-title {
     font-family: var(--font-body);
-    font-size: 0.625rem; /* 10px */
+    font-size: 0.625rem; 
     font-weight: 700;
     color: var(--color-black);
-
     white-space: nowrap;
 }
 
 .interests-list {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    gap: 8px 24px;
+    gap: 6px 24px;
 }
 
 .interests-list span {
     font-family: var(--font-body);
-    font-size: 0.625rem; /* 10px */
+    font-size: 0.625rem; 
     font-weight: 400;
     color: var(--color-black);
 }
