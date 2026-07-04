@@ -138,7 +138,7 @@ header {
     transition: opacity .3s ease;
 }
 
-.menu a.active {
+.menu a.nav-active-page {
     color: #000000;
     font-weight: 700; /* opcional */
 }
