@@ -368,3 +368,52 @@ header {
 
     color: var(--color-black);
 }
+
+/* -------------------- Certificates -------------------- */
+
+.section-title-certificate {
+    margin-bottom: 20px;
+}
+
+.certificate-card {
+    display: flex;
+    align-items: center;
+
+    background: #F5F4F4;
+    border-radius: 10px;
+
+    padding: 6px;
+    margin-bottom: 15px;
+}
+
+.certificate-image {
+    width: 46px;
+    height: 46px;
+
+    border-radius: 50%;
+    object-fit: cover;
+
+    flex-shrink: 0;
+}
+
+.certificate-info {
+    margin-left: 12px;
+}
+
+.certificate-info h3 {
+    font-family: var(--font-heading);
+    font-size: 0.75rem; /* 12px */
+    font-weight: 500;
+
+    color: var(--color-black);
+
+    margin-bottom: 4px;
+}
+
+.certificate-info p {
+    font-family: var(--font-body);
+    font-size: 0.625rem; /* 10px */
+    font-weight: 400;
+
+    color: var(--color-black);
+}
