@@ -90,7 +90,6 @@ table {
 --body-size: 12px;
 --body-weight: 400;
 
-
 }
 
 /* -------------------- Main Container -------------------- */
@@ -139,8 +138,9 @@ header {
     transition: opacity .3s ease;
 }
 
-.menu a:hover {
-    opacity: 0.7;
+.menu a.active {
+    color: #000000;
+    font-weight: 700; /* opcional */
 }
 
 /* -------------------- Hero -------------------- */
@@ -235,11 +235,11 @@ header {
 
 .section-title {
     font-family: var(--font-heading);
-    font-size: 0.9375rem; /* 15px */
+    font-size: 1.25rem;
     font-weight: 700;
     color: var(--color-black);
+    margin-top: 40px;
 
-    margin-bottom: 20px;
 }
 
 /* -------------------- Work Card -------------------- */
@@ -320,4 +320,51 @@ header {
 
 .footer a:hover {
     opacity: 0.7;
+}
+
+/* -------------------- Work - Resume -------------------- */
+
+.resume-section {
+    margin-top: 40px;
+}
+
+.resume-section:first-child {
+    margin-top: 40px;
+}
+
+.resume-item {
+    margin-bottom: 28px;
+}
+
+.resume-item:last-child {
+    margin-bottom: 0;
+}
+
+.resume-item h3 {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--color-black);
+    margin-bottom: 4px;
+    margin-top: 20px;
+}
+
+.resume-period {
+    display: block;
+
+    font-family: var(--font-body);
+    font-size: 0.625rem; /* 10px */
+    font-weight: 700;
+    color: #666666;
+
+    margin-bottom: 4px;
+}
+
+.resume-item p {
+    font-family: var(--font-body);
+    font-size: 0.625rem; /* 10px */
+    font-weight: 400;
+    line-height: 1.5;
+
+    color: var(--color-black);
 }
