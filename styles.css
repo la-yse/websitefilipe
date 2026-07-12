@@ -419,11 +419,7 @@ header {
     margin-top: 40px;
 }
 
-.contact-card {
-    background: var(--color-light-gray);
-    border-radius: 10px;
-    padding: 20px;
-}
+
 
 .contact-card h3 {
     font-family: var(--font-heading);
@@ -486,13 +482,15 @@ header {
 
 .navbar {
     flex-direction: column;
-    gap: 20px;
+    gap: 5px;
+
     }
 
 .menu {
     flex-wrap: wrap;
     justify-content: center;
     gap: 28px;
+
     }
 
 /* -------------------- Hero -------------------- */
@@ -564,5 +562,10 @@ header {
     border-radius: 999px;
     font-size: 0.75rem;
     text-align: center;
+}
+
+/* -------------------- Footer -------------------- */
+.footer p {
+    font-size: 0.625rem;
 }
 }
