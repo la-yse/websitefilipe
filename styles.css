@@ -20,6 +20,8 @@ body {
     line-height: 1.5;
     font-family: Arial, Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
+    display: flex;
+    justify-content: center;
 }
 
 img,
@@ -46,7 +48,8 @@ button {
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: var(--color-blue);
+
 }
 
 ul,
@@ -65,7 +68,7 @@ table {
 
 --color-white: #FAFAFA;
 --color-black: #121212; 
---color-blue: 4D51C9;
+--color-blue: #4D51C9;
 --color-dark-gray: #C4C4C4;
 --color-gray: #888888;
 --color-light-gray: #F5F4F4;
@@ -86,19 +89,39 @@ table {
 /*--subtitle-post-size: 20px;
 --subtitle--post-weight: 700;*/
 
+/* Hero */
+--heading-section-size: 20px;
+--heading--section-weight: 700;
+
 /* Body */
 --body-size: 12px;
 --body-weight: 400;
 
 }
 
-/* -------------------- Main Container -------------------- */
+/* -------------------- Main Container / General  -------------------- */
+
+main {
+    flex: 1;
+}
 
 .container {
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
     padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.section-title {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-black);
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 /* -------------------- Header -------------------- */
@@ -139,8 +162,7 @@ header {
 }
 
 .menu a.nav-active-page {
-    color: #000000;
-    font-weight: 700; /* opcional */
+    font-weight: 700; 
 }
 
 /* -------------------- Hero -------------------- */
@@ -233,13 +255,19 @@ header {
     margin-top: 60px;
 }
 
-.section-title {
+.section-title-latest-work {
     font-family: var(--font-heading);
     font-size: 1.25rem;
     font-weight: 700;
     color: var(--color-black);
     margin-top: 40px;
+    margin-bottom: 20px;
 
+    }
+
+.latest-work a {
+    color: var(--color-blue);
+    text-decoration: none;
 }
 
 /* -------------------- Work Card -------------------- */
@@ -313,7 +341,6 @@ header {
 }
 
 .footer a {
-    color: inherit;
     text-decoration: underline;
     transition: opacity 0.2s ease;
 }
