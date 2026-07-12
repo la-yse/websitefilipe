@@ -413,6 +413,64 @@ header {
     color: var(--color-black);
 }
 
+/* -------------------- Contact -------------------- */
+
+.contact-section {
+    margin-top: 40px;
+}
+
+.contact-card {
+    background: var(--color-light-gray);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.contact-card h3 {
+    font-family: var(--font-heading);
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.contact-address {
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    word-break: break-word;
+}
+
+.contact-note {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    color: var(--color-gray);
+}
+
+/* -------------------- Coming Soon -------------------- */
+
+.coming-soon {
+    margin-top: 40px;
+}
+
+.coming-soon-card {
+    background: var(--color-light-gray);
+    border-radius: 10px;
+    padding: 24px;
+    text-align: center;
+}
+
+.coming-soon-card h3 {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    margin-bottom: 12px;
+    color: var(--color-black);
+}
+
+.coming-soon-card p {
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    line-height: 1.7;
+    color: var(--color-gray);
+}
+
 
 /* ================= RESPONSIVE DESIGN - MOBILE ================= */
 
@@ -507,5 +565,4 @@ header {
     font-size: 0.75rem;
     text-align: center;
 }
-
-
+}
